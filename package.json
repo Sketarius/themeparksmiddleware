@@ -1,0 +1,14 @@
+{
+  "name": "themeparksmiddleware",
+  "version": "1.0.0",
+  "description": "I wrote this to allow me to use the themeparks api with .NET.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shane Freeman",
+  "license": "themeparks - MIT License / themeparksmiddleware - MIT License",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
