@@ -10,6 +10,12 @@ Operating Time requests look like:
 ```
 http://localhost:3000/operatinghours?park=epcot&type=info
 ```
+
+To use:
+```
+node index.json
+```
+
 park [optional]
 -- epcot
 -- hollywoodstudios

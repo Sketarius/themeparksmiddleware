@@ -48,7 +48,7 @@ app.get('/operatinghours', (req, res) => {
         }
     }
 
-    // If park is requested
+    // If type is requested
     if (!(queryObject["type"] === undefined)) {
         switch(queryObject["type"]) {
             case "ticketed-event":
@@ -63,6 +63,7 @@ app.get('/operatinghours', (req, res) => {
         }
     }
 
+    // Get Schedule
     entitiesApi.getEntityScheduleUpcoming(parkRequested).then(function(data) {
         var operatingTimes = data;
 
